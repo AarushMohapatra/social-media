@@ -1,13 +1,13 @@
 // Your web app's Firebase configuration
 //ADD YOUR FIREBASE LINKS HERE
 var firebaseConfig = {
-    apiKey: "AIzaSyAhPgwlvF0NvvI3egWJ4N7yIc8cwZ5_Tbo",
-    authDomain: "socialmedia-28f31.firebaseapp.com",
-    databaseURL: "https://socialmedia-28f31-default-rtdb.firebaseio.com",
-    projectId: "socialmedia-28f31",
-    storageBucket: "socialmedia-28f31.appspot.com",
-    messagingSenderId: "460832577843",
-    appId: "1:460832577843:web:57efa732a8e6236f7b4646"
+    apiKey: "AIzaSyDJhzwo_nAyUIdqxSDzGNyL4QeRy_GWk2Q",
+  authDomain: "login-cb19c.firebaseapp.com",
+  databaseURL: "https://login-cb19c-default-rtdb.firebaseio.com",
+  projectId: "login-cb19c",
+  storageBucket: "login-cb19c.appspot.com",
+  messagingSenderId: "35014884101",
+  appId: "1:35014884101:web:075f7824e9021984c7556c"
 };
 
 // Initialize Firebase
