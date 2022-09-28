@@ -14,7 +14,7 @@ firebase.initializeApp(firebaseConfig);
 function addRoom() {
   
   msg = document.getElementById("msg").value;
-  firebase.database().ref(room_name).push({
+  firebase.database().ref("/").push({
     name:user_name,
     message:msg,
     like:0
