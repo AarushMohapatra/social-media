@@ -70,7 +70,7 @@ function updateLike(message_id)
 	updated_likes = Number(likes) + 1;
 	console.log(updated_likes);
 
-	firebase.database().ref(room_name).child(message_id).update({
+	firebase.database().ref("/").child(message_id).update({
 		like : updated_likes  
 	 });
 
