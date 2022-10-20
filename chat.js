@@ -20,8 +20,8 @@ function addUser()
     password = document.getElementById("password").value;
     names = document.getElementById("names").value
     localStorage.setItem("name", names);
-    firebase.database().ref("/").child(user_name + " has joined the chat!").update({"password" : password});
-    firebase.database().ref("/").child(user_name + " has joined the chat!").update({"name" : names});
+    /*firebase.database().ref("/").child(user_name + " has joined the chat!").update({"password" : password});
+    firebase.database().ref("/").child(user_name + " has joined the chat!").update({"name" : names});*/
     window.location = "chat_room.html";
     
 }
